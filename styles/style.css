@@ -1,0 +1,84 @@
+*{
+    text-align: center;
+}
+
+header {
+    background-color: rgb(59, 190, 230);
+    font-family: sans-serif;
+    padding: 1%;
+}
+
+small {
+    color: white;
+}
+
+img{
+    padding: 1%;
+}
+
+h1, h2 {
+    color: rgb(59, 190, 230);
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container-one a {
+    color: white;
+}
+
+.box ul{
+    background-color: rgb(234, 244, 248);
+    border-radius: 5%;
+    padding: 2%;
+    list-style-type: none;
+
+}
+
+#texto-parrafo {
+    color: rgb(216, 41, 41);
+}
+
+.box {
+    width: 50%;
+    padding: 3%;
+    text-align: center;
+    background-color: rgb(230, 225, 225);
+    font-size: 14px;
+    display: inline-block;
+    font-family: sans-serif;
+}
+
+i{
+    font-size: 25px;
+    padding: 3%;
+    text-align: left;
+}
+
+.box ul li:first-child, .box ul li:first-child a {
+    color: rgb(233, 45, 92);
+    font-weight: bold;
+}
+
+.box ul li:nth-child(2), .box ul li:nth-child(2) a {
+    color: rgb(20, 194, 58);
+    font-weight: bold;
+}
+
+.box ul li:nth-child(3), .box ul li:nth-child(3) a {
+    color: rgb(214, 145, 16);
+    font-weight: bold;
+}
+
+.box ul li:last-child, .box ul li:nth-child(4) a {
+    color: rgb(20, 90, 194);
+    font-weight: bold;
+}
+ 
+footer {
+    background-color: rgb(59, 190, 230);
+    font-family: sans-serif;
+    padding: 0.5%;
+}
