@@ -19,37 +19,48 @@
       <a href="https://www.w3schools.com/html">HTML</a>
       <a href="https://www.w3schools.com/css">CSS</a>
       <a href="https://www.javascript.com">JavaScript</a>
-   </div>
-   </div>
    </header> 
 
    <div class="box"> 
       <h1>Mi primer página</h1>
-       <p>Puppy kitty ipsum dolor sit good dog foot stick canary.
-        Teeth Mittens grooming vaccine walk swimming nest good boy furry tongue heel furry treats fish. 
-        <span id ="texto-parrafo">Run fast kitten dinnertime ball run foot park fleas throw house train licks stick dinnertime window.</span>
-        Yawn litter fish yawn toy pet gate throw Buddy kitty wag tail ball groom crate ferret heel wet nose Rover toys pet supplies.
-       </p>
-      </div>
+      <p>Puppy kitty ipsum dolor sit good dog foot stick canary.
+      Teeth Mittens grooming vaccine walk swimming nest good boy furry tongue heel furry treats fish. 
+      <span id ="texto-parrafo">Run fast kitten dinnertime ball run foot park fleas throw house train licks stick dinnertime window.</span>
+      Yawn litter fish yawn toy pet gate throw Buddy kitty wag tail ball groom crate ferret heel wet nose Rover toys pet supplies.
+      </p>
+   </div>
 
    <div class="box">  
-    <h2>Lista de algunas redes sociales</h2>
-    <div class="box">
-    <ul>   
-    <li><i class="fab fa-facebook"></i><a href="www.facebook.com">Facebook</a></li>
-    <li><i class="fab fa-instagram"></i><a href="www.instagram.com">Instagram</a></li>
-    <li><i class="fab fa-twitter-square"></i><a href="www.twitter.com">Twitter</a></li>
-    <li><i class="fab fa-linkedin"></i><a href="www.linkedin.com/">Linkedin</a></li>
-    </ul>
+      <h2>Lista de algunas redes sociales</h2>
+      <div class="box">
+      <ul>   
+      <li><i class="fab fa-facebook"></i><a href="www.facebook.com">Facebook</a></li>
+      <li><i class="fab fa-instagram"></i><a href="www.instagram.com">Instagram</a></li>
+      <li><i class="fab fa-twitter-square"></i><a href="www.twitter.com">Twitter</a></li>
+      <li><i class="fab fa-linkedin"></i><a href="www.linkedin.com/">Linkedin</a></li>
+      </ul>
+
+      
+   <div>
+      <button id="toggleBloque" onclick="toggleBloque()">Mostrar Operaciones</button>
+      <div id="operationsContainer">
+      Numero 1: <input id="num1" type="number" /> Numero 2: <input id="num2" type="number"/></br>
+      <button onclick="operaciones('sumar'); return false;">Sumar</button>
+      <button onclick="operaciones('restar'); return false;">Restar</button>
+      <button onclick="operaciones('multiplicar'); return false;">Multiplicar</button></br>
+      <p id="resultado"> El resultado de la operacion es:</p>
+      </div>   
+   </div> 
    </div>
-   </div>
+   </div>   
+   
 
    <footer>
-      <p> <small>Hecho por Maria Matamoros</small>
-      </p>
+      <p> <small>Hecho por Maria Matamoros</small></p>
    </footer>
 
    <!--Por aca termina-->
+<script src="scripts/script.js"></script>
 </body>
 </html>
 
