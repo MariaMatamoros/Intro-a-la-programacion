@@ -1,10 +1,10 @@
 
 function toggleBloque() {
     var demo = document.getElementById("operationsContainer");
-    if (demo.style.display === "none") {
+    if (!demo.style.display || demo.style.display === "none") {
         demo.style.display = "block";
         document.getElementById("toggleBloque").textContent = "Ocultar Operaciones";
-    } else {
+    } else { 
         demo.style.display = "none";
         document.getElementById("toggleBloque").textContent = "Mostrar Operaciones";
     }    
