@@ -34,8 +34,7 @@ function operaciones(op)
             return (parseInt(n1) * parseInt(n2));
         }
     }
-
-
+    
     var num1 = document.getElementById("num1").value;
     var num2 = document.getElementById("num2").value;
 
@@ -49,7 +48,7 @@ function operaciones(op)
         document.getElementById("num2").focus();
     }
     else {
-    /*Si se han introducido los números en ámbas cajas, operamos*/
+    /*Resultados*/
         switch(op) {
             case 'sumar':
                 var resultado = ops.sumar(num1, num2);
@@ -68,6 +67,7 @@ function operaciones(op)
     }
 
 }
+
 
     
     
